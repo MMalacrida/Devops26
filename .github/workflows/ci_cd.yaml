@@ -14,5 +14,4 @@ jobs:
       - name: 'Instalação de dependências'
         run: pip install -r requirements.txt
       - name: 'Testes unitários'
-      - name: Run pytest
-        run: PYTHONPATH=. python -m pytest
+        run: pytest
