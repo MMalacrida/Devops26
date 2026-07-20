@@ -17,21 +17,21 @@ Acessar a documentacao:
 http://localhost:8000/docs
 
 ## Endpoints principais
-GET /tarefas
-POST /tarefas
-PUT /tarefas/{id}
-DELETE /tarefas/{id}
-GET /metricas
+GET /tarefas,
+POST /tarefas,
+PUT /tarefas/{id},
+DELETE /tarefas/{id},
+GET /metricas,
 GET /health
 
 ## Tecnologias utilizadas
-Python
-FastAPI
-Pytest
-Docker
-GitHub Actions
-Docker Hub
-Kubernetes
+Python,
+FastAPI,
+Pytest,
+Docker,
+GitHub Actions,
+Docker Hub,
+Kubernetes,
 FOSSA
 
 ## Pipeline
