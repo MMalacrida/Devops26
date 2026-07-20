@@ -3,13 +3,6 @@ from datetime import datetime
 
 APP_NOTIFICACAO = FastAPI()
 
-# Criar uma rota para receber tarefa finalizada
-# APP_NOTIFICACAO.post("/notificar")
-# Entrada:
-#   - Recebe título da tarefa e data de finalização da tarefa
-# Saída:
-#   - print no terminal
-
 NOTIFICACOES = []
 
 @APP_NOTIFICACAO.get("/notificar")
